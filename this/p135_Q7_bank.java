@@ -2,7 +2,7 @@ package javaPractice;
 
 import java.util.Scanner;
 
-public class p135_Q7 {
+public class p135_Q7_bank {
 
 	public static void main(String[] args) {
 
