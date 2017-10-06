@@ -12,25 +12,25 @@ public class p135_Q7 {
 		while (true) {
 
 			System.out.println("-----------------------");
-			System.out.println("1.¿¹±Ý|2.Ãâ±Ý|3.ÀÜ°í|4.Á¾·á");
+			System.out.println("1.ì˜ˆê¸ˆ|2.ì¶œê¸ˆ|3.ìž”ê³ |4.ì¢…ë£Œ");
 			System.out.println("-----------------------");
-			System.out.println("¼±ÅÃ>");
+			System.out.println("ì„ íƒ>");
 			menu = in.nextInt();
 
 			switch (menu) {
 			case 1:
-				System.out.println("¿¹±Ý¾×>");
+				System.out.println("ì˜ˆê¸ˆì•¡>");
 				money += in.nextInt();
 				break;
 			case 2:
-				System.out.println("Ãâ±Ý¾×>");
+				System.out.println("ì¶œê¸ˆì•¡>");
 				money -= in.nextInt();
 				break;
 			case 3:
-				System.out.println("ÀÜ°í>" + money);
+				System.out.println("ìž”ê³ >" + money);
 				break;
 			case 4:
-				System.out.println("ÇÁ·Î±×·¥ Á¾·á");
+				System.out.println("í”„ë¡œê·¸ëž¨ ì¢…ë£Œ");
 				return;
 			}
 		}
