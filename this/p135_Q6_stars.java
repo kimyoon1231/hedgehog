@@ -2,7 +2,7 @@ package javaPractice;
 
 import java.util.Scanner;
 
-public class p135_Q6 {
+public class p135_Q6_stars {
 
 	public static void main(String[] args) {
 
