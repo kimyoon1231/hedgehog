@@ -13,7 +13,7 @@ public class S6_4_Student {
 	}
 
 	public float getAverage() {
-		return (int) (getTotal() / 3f * 10 + 0.5) / 10f;
+		return (int) (getTotal() / 3f * 10 + 0.5) / 10f; // ★
 	}
 }
 
