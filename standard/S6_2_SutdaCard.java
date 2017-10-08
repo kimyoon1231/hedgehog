@@ -5,7 +5,7 @@ public class S6_2_SutdaCard {
 	boolean isKwang;
 
 	public S6_2_SutdaCard() {
-		this(1, true); // default constructor
+		this(1, true); // default constructor ★
 	}
 
 	public S6_2_SutdaCard(int num, boolean isKwang) {
@@ -15,7 +15,7 @@ public class S6_2_SutdaCard {
 	}
 
 	public String info() {
-		return num + (isKwang ? "K" : "");
+		return num + (isKwang ? "K" : "");  // ★
 		// return num + if(isKwang == true ) {"K"} : X !!
 	}
 }
