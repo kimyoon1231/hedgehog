@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- '매핑된 SQL 구문 살펴보기'에서 복사 -->
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="test.service.PersonMapper">
+
+	<insert id="insertPerson" parameterType="p">
+		insert into persont(pno,name)
+		values (persont_seq.nextval, #{name} )
+	</insert>
+
+	<select id="selectPerson" resultType="p">
+		select * from persont
+		where pno = #{pno}
+
+	</select>
+
+	<update id="updatePerson" parameterType="p">
+		update persont
+		set name = #{name}
+		where pno = #{pno}
+
+	</update>
+
+	<delete id="deletePerson">
+		delete persont
+		where pno = #{pno}
+	</delete>
+
+	<select id="getPersonList" resultType="p">
+		select * from persont
+
+
+	</select>
+
+</mapper>
